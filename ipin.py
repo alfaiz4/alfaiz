@@ -45,7 +45,7 @@ for col in z:
     time.sleep(0.4)
 
 def main():
-	list= "list.txt"
+	list= "target.txt"
 	opened=open(list,"r")
 	d= "index.html"
 	data=open(d).read()
